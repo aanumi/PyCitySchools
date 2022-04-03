@@ -23,6 +23,7 @@ The school board has identified key issues relating to academic dishonesty regar
  
  ### How does replacing the ninth-grade scores affect scores by school spending?
 •	The only affected bin as anticipated is the bin containing Thomas High School. The spending range for Thomas High School is $638, so Thomas High School falls in the $630 - $644 bin. While the average math and reading scores remain the same, the % passing math, reading, and overall are reduced since a portion of the dataset is replaced with NaNs, while the overall denominator with the pool of all students stays the same. The new percentages are 73.46 for Math, 84.32 for reading, and 62.47 overall. A snapshot of the replaced scores can be seen below:
+
 ![Affected by school spending](https://user-images.githubusercontent.com/100884241/161431007-0ea8a6bb-6d2a-4b63-9bae-8ff8e8fe096e.png)
 
  ### How does replacing the ninth-grade scores affect scores by school size?
@@ -36,13 +37,13 @@ The school board has identified key issues relating to academic dishonesty regar
 ## SUMMARY
 Four key changes noted in the updated school district analysis after reading and math scores for the ninth grade students at Thomas High School were replaced with NaNs are discussed below:
 
-	1	Using NaNs to replace incorrect data is a good way to resolve inconsistencies without skewing the results to a large extent. Using zeroes for example, in place of the NaNs would likely skew the data to a larger extent as zero is numeric and could have a bigger impact.
+1	Using NaNs to replace incorrect data is a good way to resolve inconsistencies without skewing the results to a large extent. Using zeroes for example, in place of the NaNs would likely skew the data to a larger extent as zero is numeric and could have a bigger impact.
 	
-	2	Even after replacing the inconsistent data with NaNs, the performance of Charter schools is still considerably stronger than that of District schools. The replacement of Thomas High School (Charter) 9th grade scores was not significant enough to change the dynamic and highlight district schools as performing better.
+2	Even after replacing the inconsistent data with NaNs, the performance of Charter schools is still considerably stronger than that of District schools. The replacement of Thomas High School (Charter) 9th grade scores was not significant enough to change the dynamic and highlight district schools as performing better.
 	
-	3	A significant reduction is noticed in Thomas High School’s overall metrics as replacing the tampered data reduced its overall from 90.9% to 65.07% in the re-computed analysis.
+3	A significant reduction is noticed in Thomas High School’s overall metrics as replacing the tampered data reduced its overall from 90.9% to 65.07% in the re-computed analysis.
 	
-	4	The changes that occurred in the scores by school size category are minimal, as they decreased by less than 0.1% in all cases. This did not significantly affect schools in the overall medium size category.
+4	The changes that occurred in the scores by school size category are minimal, as they decreased by less than 0.1% in all cases. This did not significantly affect schools in the overall medium size category.
  
 
 
