@@ -3,6 +3,7 @@
 ## OVERVIEW OF ANALYSIS
 The school board has identified key issues relating to academic dishonesty regarding the reading and math grades for Thomas High School. The purpose of this analysis is to help the school board uphold state testing standards by replacing the inconsistent datasets for the 9th Grade Thomas High School with NaNs, keeping the unaffected data intact, and re-conducting the school district analysis with updated data.
 
+
 ## ANALYSIS RESULTS
 
 ### How is the district summary affected?
@@ -34,16 +35,17 @@ The school board has identified key issues relating to academic dishonesty regar
 •	Thomas High School is categorized as a Charter school. This means that the numbers for the other school type (District) are unaffected as the change affects Charter schools after adjusting the analysis. While average math and reading scores stay the same between both school types, the percentages reduce in the charter schools  from 94 to 90 (% passing match), 97 to 93 (% passing reading), and 90 to 87 (% overall passing). This is roughly a 4 point decrease in the first two items, with a 3 point drop in the overall. An image of the adjusted analysis impacting school type (Charter schools) is pasted below:
 ![Affected by school type](https://user-images.githubusercontent.com/100884241/161431085-60d1f8a7-af4e-41ba-84c8-fe3f41fec4f4.png)
 
+
 ## SUMMARY
 Four key changes noted in the updated school district analysis after reading and math scores for the ninth grade students at Thomas High School were replaced with NaNs are discussed below:
 
-1	Using NaNs to replace incorrect data is a good way to resolve inconsistencies without skewing the results to a large extent. Using zeroes for example, in place of the NaNs would likely skew the data to a larger extent as zero is numeric and could have a bigger impact.
+1.	Using NaNs to replace incorrect data is a good way to resolve inconsistencies without skewing the results to a large extent. Using zeroes for example, in place of the NaNs would likely skew the data to a larger extent as zero is numeric and could have a bigger impact.
 	
-2	Even after replacing the inconsistent data with NaNs, the performance of Charter schools is still considerably stronger than that of District schools. The replacement of Thomas High School (Charter) 9th grade scores was not significant enough to change the dynamic and highlight district schools as performing better.
+2.	Even after replacing the inconsistent data with NaNs, the performance of Charter schools is still considerably stronger than that of District schools. The replacement of Thomas High School (Charter) 9th grade scores was not significant enough to change the dynamic and highlight district schools as performing better.
 	
-3	A significant reduction is noticed in Thomas High School’s overall metrics as replacing the tampered data reduced its overall from 90.9% to 65.07% in the re-computed analysis.
+3.	A significant reduction is noticed in Thomas High School’s overall metrics as replacing the tampered data reduced its overall from 90.9% to 65.07% in the re-computed analysis.
 	
-4	The changes that occurred in the scores by school size category are minimal, as they decreased by less than 0.1% in all cases. This did not significantly affect schools in the overall medium size category.
+4.	The changes that occurred in the scores by school size category are minimal, as they decreased by less than 0.1% in all cases. This did not significantly affect schools in the overall medium size category.
  
 
 
