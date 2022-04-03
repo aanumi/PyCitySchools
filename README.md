@@ -1,7 +1,7 @@
 # WRITTEN ANALYSIS - PYCITYSCHOOLS
 
 ## OVERVIEW OF ANALYSIS
-The school board has identified key issues relating to academic dishonesty regarding the reading and math grades for Thomas High School. The purpose of this analysis is to help the school board uphold state testing standards by replacing the inconsistent datasets for the 9th Grade Thomas High School with NaNs, keeping the unaffected data intact, and re-conducting the school district analysis with updated data.
+The school board has identified key issues relating to academic dishonesty regarding the reading and math grades for students in the 9th grade at Thomas High School. The purpose of this analysis is to help the school board uphold state testing standards by replacing the inconsistent datasets for the 9th Grade Thomas High School with NaNs, keeping the unaffected data intact, and re-conducting the school district analysis with updated data.
 
 
 ## ANALYSIS RESULTS
