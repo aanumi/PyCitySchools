@@ -20,7 +20,8 @@ The school board has identified key issues relating to academic dishonesty regar
 
 ### How does replacing the ninth grade scores affect Math and Reading scores by grade?
 •	The math and reading scores by grade for all other schools are not affected when the 9th grade Thomas High School scores are removed. Having replaced the Thomas High School 9th grade scores with null values, we see ‘nan’ in the 9th grade columns for Math and Reading Scores. Snapshots of new math and reading scores showing the ‘nan’ after the replacement can be seen below:
- ![New math scores by grade](https://user-images.githubusercontent.com/100884241/161430883-95a79372-c359-452c-821f-f2434c2a29e5.png) ![New reading scores by grade](https://user-images.githubusercontent.com/100884241/161430892-2e471278-1a15-443d-b10f-7d3831cc832f.png)
+
+![New math scores by grade](https://user-images.githubusercontent.com/100884241/161430883-95a79372-c359-452c-821f-f2434c2a29e5.png)![New reading scores by grade](https://user-images.githubusercontent.com/100884241/161430892-2e471278-1a15-443d-b10f-7d3831cc832f.png)
  
  ### How does replacing the ninth-grade scores affect scores by school spending?
 •	The only affected bin as anticipated is the bin containing Thomas High School. The spending range for Thomas High School is $638, so Thomas High School falls in the $630 - $644 bin. While the average math and reading scores remain the same, the % passing math, reading, and overall are reduced since a portion of the dataset is replaced with NaNs, while the overall denominator with the pool of all students stays the same. The new percentages are 73.46 for Math, 84.32 for reading, and 62.47 overall. A snapshot of the replaced scores can be seen below:
