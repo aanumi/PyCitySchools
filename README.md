@@ -35,9 +35,13 @@ The school board has identified key issues relating to academic dishonesty regar
 
 ## SUMMARY
 Four key changes noted in the updated school district analysis after reading and math scores for the ninth grade students at Thomas High School were replaced with NaNs are discussed below:
+
 	1	Using NaNs to replace incorrect data is a good way to resolve inconsistencies without skewing the results to a large extent. Using zeroes for example, in place of the NaNs would likely skew the data to a larger extent as zero is numeric and could have a bigger impact.
+	
 	2	Even after replacing the inconsistent data with NaNs, the performance of Charter schools is still considerably stronger than that of District schools. The replacement of Thomas High School (Charter) 9th grade scores was not significant enough to change the dynamic and highlight district schools as performing better.
+	
 	3	A significant reduction is noticed in Thomas High School’s overall metrics as replacing the tampered data reduced its overall from 90.9% to 65.07% in the re-computed analysis.
+	
 	4	The changes that occurred in the scores by school size category are minimal, as they decreased by less than 0.1% in all cases. This did not significantly affect schools in the overall medium size category.
  
 
